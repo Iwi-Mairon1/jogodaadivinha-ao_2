@@ -16,3 +16,8 @@ function verificarChute(){
     comsole.log('o botao foi clicado');
 }
 
+function gerarNumeroAleatorio(){
+    return prseInt(Math.random() *10 + 1);
+
+}
+
