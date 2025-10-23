@@ -1,8 +1,4 @@
-//let titulo = document.querySelector('h1');
-//titulo.innerHTML = 'jogo do numero secreto';
-
-let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'escolha um numero entre 1 a 10';
+let numeroSecreto = gerarNumeroAleatorio();
 
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
@@ -13,7 +9,8 @@ exibirtextoNaTela('h1','jogo do numero secreto');
 exibirTextoNaTela('p','escolha um numero entre 1 a 10');
 
 function verificarChute(){
-    comsole.log('o botao foi clicado');
+    let chute = document.querySelector('input').value
+    console.log(chute == numerosecreto )
 }
 
 function gerarNumeroAleatorio(){
