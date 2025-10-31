@@ -16,5 +16,5 @@ function verificarChute(){
 function gerarNumeroAleatorio(){
     return prseInt(Math.random() *10 + 1);
 
-}
+}69382915
 
